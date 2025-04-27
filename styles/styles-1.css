@@ -1,0 +1,71 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0 0 6rem 0;
+}
+.first-block{
+  display:flex;
+  align-items: center;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right:3.5rem;
+  padding-left:3.5rem;
+  background-color: black;
+  overflow-x: hidden;
+}
+.abstract-logo{
+  width:2%;
+}
+.logo-img{
+width:100% ;
+height:auto;
+}
+.help-center{
+  font-size:1rem;
+  color:white;
+}
+.sub-req{
+  width:auto;
+}
+.sub-req-button{
+  width:100%;
+  font-size: 1.2rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  max-width: 100%;
+  padding:0.5rem 1rem;
+  border-radius: 0.5rem;
+  color:white;
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sub-req-button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+.sign-in{
+width:auto;
+}
+.sign-in-button{
+  width:100%;
+  font-size: 1.2rem;
+  padding:0.5rem 1rem;
+  border-radius: 0.5rem;
+  border:none;
+  color:white;
+  background-color: #4C5FD5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sign-in-button:hover {
+  background-color: #800080;
+  transform: scale(1.05);
+}
+.buttons{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap:0.8rem;
+}
